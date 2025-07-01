@@ -1,0 +1,54 @@
+a {
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 180px;
+}
+
+.rodapeh4 {
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 70px;
+}
+
+.projeto-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.projeto-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.projeto-info {
+  padding: 15px;
+}
+
+.projeto-info h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.projeto-info p {
+  font-size: 14px;
+  color: #666;
+}
+
+.projeto-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
