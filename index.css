@@ -1,0 +1,46 @@
+iframe {
+  max-width: 100%;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+strong {
+  font-size: 28px;
+  letter-spacing: 5px;
+  color: #588157;
+
+}
+
+.container {
+  width: 100%;
+}
+
+#paginabonita {
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+#bloco1 {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding: 40px;
+  margin: 0;
+}
+
+#texto1 {
+  min-width: 300px;
+  max-width: 500px;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+#video {
+  height: 600px;
+  width: 800px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
