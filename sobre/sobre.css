@@ -1,0 +1,76 @@
+footer {
+    margin-top: 50px;
+}
+
+.pergunta {
+    font-size: 35px;
+}
+
+.paragrafo {
+    font-size: 20px
+}
+
+#container1 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: #dedbd0;
+}
+
+#quemsomos1 {
+    margin-top: 40px;
+    margin-left: 270px;
+
+}
+
+#img1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: auto;
+    width: 30%;
+    border-radius: 30px;
+    margin-right: 230px;
+}
+
+#container2 {
+    width: 100%;
+    height: 400px;
+    background: #EDE8D0;
+    display: flex;
+}
+
+#img2 {
+    margin-top: 40px;
+    border-radius: 30px;
+    margin-left: 250px;
+    height: 350px;
+    width: 30%;
+}
+
+#nossamissao {
+    width: 680px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+#container3 {
+    width: 100%;
+    height: 400px;
+    background: #EDE8D0;
+    display: flex;
+}
+
+#nossahistoria {
+    margin-top: 40px;
+    margin-left: 270px;
+
+}
+
+#img1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: auto;
+    width: 30%;
+    border-radius: 30px;
+    margin-right: 230px;
+}
