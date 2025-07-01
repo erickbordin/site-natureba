@@ -1,0 +1,75 @@
+h2 {
+  color: #575652;
+  margin-bottom: 20px;
+}
+
+form {
+  padding: none;
+  font-size: 16px;
+  color: rgb(59, 59, 59);
+}
+
+input {
+  border-radius: 5px;
+  width: 95%;
+  height: 20px;
+  border: 0;
+}
+
+select {
+  padding: 10px;
+  border: 2px solid #003b4f;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #000;
+  font-size: 14px;
+  width: 100%;
+  max-width: 400px;
+}
+
+footer {
+  margin-top: 51px;
+}
+
+.formulario {
+  margin: 0 auto;
+  width: 30%;
+  padding: 20px;
+}
+
+#privacidade {
+  width: 20px;
+  float: left;
+}
+
+#termosecondicoes {
+  color: black;
+  text-decoration: none;
+}
+
+#aceite {
+  margin-left: 10px;
+}
+
+#botao {
+  background-color: #023047;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 1s ease, transform 1s ease;
+  margin-top: 15px;
+}
+
+#botao:hover {
+  background-color: #1a2b75;
+  transform: scale(1.05);
+}
+
+#botao:active {
+  transform: scale(0.97);
+}

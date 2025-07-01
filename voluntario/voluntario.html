@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voluntários</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="voluntario.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <script src="voluntario.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <h1 id="natureba">Natureba</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">home</a></li>
+        <li><a href="../sobre/sobre.html">sobre</a></li>
+        <li><a href="../projetos/projetos.html">projetos</a></li>
+        <li><a href="#">voluntarie-se</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="formulario">
+    <h2><strong>Preencha seus dados e comece já:</strong></h2>
+    <form method="post" id="form">
+      <label for="nome">Qual seu nome completo?</label><br>
+      <input type="text" id="nome" name="nome" required maxlength="100" class="required.input"><br><br>
+
+      <label for="email">Qual seu melhor e-mail?</label><br>
+      <input type="email" id="email" name="email" required maxlength="100" class="required.input"><br><br>
+      <label for="telefone">E o seu número de Whatsapp?</label><br>
+      <input type="tel" placeholder="(+55) 51 9 9999-9999" id="telefone" name="telefone" maxlength="15" pattern="\d*" class="required.input"><br><br>
+
+      <label for="idade">Qual a data que você nasceu?</label><br>
+      <input type="text" id="idade" placeholder="dia / mês / ano" required maxlength="10" class="required.input"><br><br>
+
+      <label for="estado">Em qual estado?</label><br>
+      <select id="estado" name="estado" required>
+        <option value="">selecione</option>
+        <option value="ac">Acre</option>
+        <option value="al">Alagoas</option>
+        <option value="ap">Amapá</option>
+        <option value="am">Amazonas</option>
+        <option value="ba">Bahia</option>
+        <option value="ce">Ceará</option>
+        <option value="df">Distrito Federal</option>
+        <option value="es">Espírito Santo</option>
+        <option value="go">Goiás</option>
+        <option value="ma">Maranhão</option>
+        <option value="mt">Mato Grosso</option>
+        <option value="ms">Mato Grosso do Sul</option>
+        <option value="mg">Minas Gerais</option>
+        <option value="pa">Pará</option>
+        <option value="pb">Paraíba</option>
+        <option value="pr">Paraná</option>
+        <option value="pe">Pernambuco</option>
+        <option value="pi">Piauí</option>
+        <option value="rj">Rio de Janeiro</option>
+        <option value="rn">Rio Grande do Norte</option>
+        <option value="rs">Rio Grande do Sul</option>
+        <option value="ro">Rondônia</option>
+        <option value="rr">Roraima</option>
+        <option value="sc">Santa Catarina</option>
+        <option value="sp">São Paulo</option>
+        <option value="se">Sergipe</option>
+        <option value="to">Tocantins</option>
+      </select><br><br>
+
+      <label for="cidade">Em qual cidade?</label><br>
+      <select id="cidade" name="cidade" required>
+        <option value="">selecione</option>
+        
+      </select><br><br>
+
+      <input type="checkbox" id="privacidade" name="privacidade" required>
+      <label id="aceite" for="privacidade">
+        Aceito os <a id="termosecondicoes" href="../voluntario/termos/termos.html"><strong>termos e condições</strong></a>
+      </label><br><br>
+
+      <button id="botao" type="submit">Quero começar!</button>
+    </form>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-box">
+        <h4>Endereço</h4>
+        <p>Porto Alegre, RS</p>
+      </div>
+
+      <div class="footer-box">
+        <h4>Contato</h4>
+        <p>+55 (51) 9 9990-2936</p>
+        <p>natureba@bol.org</p>
+      </div>
+
+      <div class="footer-box">
+        <h4>Redes Sociais</h4>
+        <p><a href="#" target="_blank">Instagram</a></p>
+        <p><a href="#" target="_blank">Facebook</a></p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Natureba. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
