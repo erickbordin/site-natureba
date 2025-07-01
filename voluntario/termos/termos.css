@@ -1,0 +1,20 @@
+ul li {
+    text-align: left; 
+}
+
+.container {
+    margin-left: 500px; 
+    max-width: 1000px; 
+}
+
+.topicos {
+    margin: 30px; 
+}
+
+#termosdeuso {
+    color: black;
+    margin-top: 30px;
+}
+#ultimotopico {
+    margin: 30px;
+}
