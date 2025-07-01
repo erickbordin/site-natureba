@@ -1,0 +1,45 @@
+footer {
+    margin-top: 100px
+}
+
+h1 {
+    text-align: center;
+    font-size: 39px;
+    padding-top: 20px;
+}
+
+a {
+    color: #4f772d
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+thead {
+    background-color: #cce5cc;
+}
+
+.container {
+    display: block;
+    align-items: center;
+}
+
+.paragrafos {
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+
+}
+
+#participar {
+    color: #4f772d
+}
+
+#container {
+    margin-top: 70px
+}
+
